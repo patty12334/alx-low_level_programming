@@ -2,15 +2,9 @@
 
 /**
 
- * main - prints _putchar
+ * main - a program that prints _putchar, followed by a new line.
 
- *
-
- * Description: prints _putchar
-
- *
-
- * Return: 0 (Success)
+ * Return: zero (Success)
 
  */
 
@@ -18,23 +12,23 @@ int main(void)
 
 {
 
-	char text[9] = "_putchar";
+	_putchar('_');
 
-	int i = 0;
+	_putchar('p');
 
+	_putchar('u');
 
+	_putchar('t');
 
-	for (i = 0; i < 8; i++)
+	_putchar('c');
 
-	{
+	_putchar('h');
 
-		_putchar(text[i]);
+	_putchar('a');
 
-	}
+	_putchar('r');
 
 	_putchar('\n');
-
-
 
 	return (0);
 }
