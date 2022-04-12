@@ -1,34 +1,49 @@
 #include "main.h"
 
+
+
 /**
 
- * main - a program that prints _putchar, followed by a new line.
+ * main - print out main character by char.
 
- * Return: zero (Success)
+ * Description: uses the main header file
+
+ * that contains the function _putchar
+
+ * Return: 0.
 
  */
+
+
 
 int main(void)
 
 {
 
-	_putchar('_');
+	char str[] = "_putchar";
 
-	_putchar('p');
+	int i;
 
-	_putchar('u');
 
-	_putchar('t');
 
-	_putchar('c');
+	i = 0;
 
-	_putchar('h');
+	while (str[i])
 
-	_putchar('a');
+	{
 
-	_putchar('r');
+		_putchar(str[i]);
+
+		++i;
+
+	}
 
 	_putchar('\n');
 
+
+
 	return (0);
+
 }
+
+
