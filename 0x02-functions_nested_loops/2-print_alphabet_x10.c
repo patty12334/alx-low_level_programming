@@ -2,11 +2,13 @@
 
 /**
 
- * print_alphabet_x10 - print alphabet 10 times
+ * print_alphabet_x10 - prints alphabet 10 times
 
  *
 
- * Return: void
+ * Return: always 0;
+
+ *
 
  */
 
@@ -14,33 +16,25 @@ void print_alphabet_x10(void)
 
 {
 
-	int round = 0;
+	char i;
 
-	char letter = 'a';
+	char h;
 
 
 
-	while (round < 10)
+	for (h = 0; h <= 9; h++)
 
 	{
 
-		letter = 'a';
-
-		while (letter <= 'z')
+		for (i = 'a'; i <= 'z'; i++)
 
 		{
 
-			_putchar(letter);
-
-			letter++;
+			_putchar(i);
 
 		}
 
 		_putchar('\n');
-
-
-
-		round++;
 
 	}
 

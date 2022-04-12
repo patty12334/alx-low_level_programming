@@ -2,15 +2,21 @@
 
 /**
 
- * _islower - checks for lowercase
-
- * @c: c is an ascii character
+ * _islower - main function
 
  *
 
- * Return: 1 if lowercase
+ * @c: character to compare
+
+ *
+
+ * Return: 1 if true, 0 if false
+
+ *
 
  */
+
+
 
 int _islower(int c)
 
@@ -24,12 +30,6 @@ int _islower(int c)
 
 	}
 
-	else
-
-	{
-
-		return (0);
-
-	}
+	return (0);
 
 }
