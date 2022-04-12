@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
 
  * main - print out main character by char.
@@ -13,8 +11,6 @@
  * Return: 0.
 
  */
-
-
 
 int main(void)
 
