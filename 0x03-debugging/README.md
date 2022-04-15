@@ -1,1 +1,1 @@
-#This is alx debugging assigment
+This is alx debugging assigment
