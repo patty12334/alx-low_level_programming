@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 /**
-
 * malloc_checked - allocates mem
 * @b: param
 * Return: void pointer
