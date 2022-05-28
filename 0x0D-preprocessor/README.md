@@ -1,4 +1,3 @@
-#it is a read me file
 rning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -7,6 +6,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 General
 
-How to use linked lists
+What are macros and how to use them
 
-Start to look for the right source of information without too much help
+What are the most common predefined macros
+
+How to include guard your header files`
