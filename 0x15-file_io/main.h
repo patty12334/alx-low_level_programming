@@ -1,4 +1,4 @@
-fndef FILE_IO
+#ifndef FILE_IO
 #define FILE_IO
 #include <stdlib.h>
 #include <unistd.h>
