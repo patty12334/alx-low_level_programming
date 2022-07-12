@@ -1,22 +1,28 @@
 #include "lists.h"
 
 /**
- * free_dlistint - frees a dlistint_t list
+ * sum_dlistint - returns the sum of all the data (n)
  * @head: head of the list
- * Return: no return
+ * Return: sum of the data
  */
 
-void free_dlistint(dlistint_t *head)
+int sum_dlistint(dlistint_t *head)
 {
-	dlistint_t *tmp;
+	int add;
+
+	add = 0;
 
 	if (head != NULL)
+	{
 		while (head->prev != NULL)
 			head = head->prev;
 
-	while ((tmp = head) != NULL)
-	{
-		head = head->next;
-		free(tmp);
+		while (head != NULL)
+		{
+			add += head->n;
+			head = head->next;
+		}
 	}
-}	
+
+	return (add);
+}
